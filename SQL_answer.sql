@@ -132,8 +132,6 @@ the maximum number of purchases is shared return all Genres. */
 
 /* Steps to Solve:  There are two parts in question- first most popular music genre and second need data at country level. */
 
-/* Method 1: Using CTE */
-
 WITH popular_genre AS 
 (
     SELECT COUNT(invoice_line.quantity) AS purchases, customer.country, genre.name, genre.genre_id, 
