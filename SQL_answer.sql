@@ -19,7 +19,7 @@ ORDER BY c DESC
 SELECT total 
 FROM invoice
 ORDER BY total DESC
-
+LIMIT 3
 
 /* Q4: Which city has the best customers? We would like to throw a promotional Music Festival in the city we made the most money. 
 Write a query that returns one city that has the highest sum of invoice totals. 
